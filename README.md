@@ -12,7 +12,17 @@ Repo de demostración para la sesión Swanlaab (17 sep 2026).
 python3 summarize_portfolio.py
 ```
 
-Salida esperada: un resumen de 4 líneas sobre el CSV de ejemplo.
+Dos salidas desde el mismo CSV:
+
+1. **Terminal** — el resumen de 4 líneas: participadas, ARR agregado, crecimiento MoM medio y cuáles están en watch.
+2. **`portfolio_report.html`** — un dashboard para proyectar: los KPIs, dos gráficos (ARR por participada y crecimiento MoM sobre el cero) y la tabla de detalle. Para abrirlo:
+
+```bash
+open portfolio_report.html      # macOS
+xdg-open portfolio_report.html  # Linux
+```
+
+El HTML es un artefacto generado y no se versiona (está en `.gitignore`). La fuente de verdad es `sample_portfolio.csv`: cambia el CSV, vuelve a ejecutar el script y la página se regenera entera.
 
 ## Frontera útil
 

@@ -12,7 +12,7 @@ Repo de demostración para la sesión Swanlaab (17 sep 2026).
 python3 summarize_portfolio.py
 ```
 
-Salida esperada: un resumen de 3 líneas sobre el CSV de ejemplo.
+Salida esperada: un resumen de 4 líneas sobre el CSV de ejemplo.
 
 ## Frontera útil
 
